@@ -55,11 +55,8 @@ class Plugin_Card_Block {
 								<img src="' . esc_url( $icon ) . '" alt="' . esc_attr( $results->name ) . '" title="' . esc_attr( $results->name ) . '"/>
 							</div>
 							<div class="o-plugin-cards-info">
-								<h4>' . esc_html( $results->name ) . '</h4>
-								<h5>' . $results->author . '</h5>
-							</div>
-							<div class="o-plugin-cards-ratings">
-								' . $this->get_ratings( $results->rating ) . '
+								<p>' . esc_html( $results->name ) . '</p>
+								<p>' . $results->author . '</p>
 							</div>
 						</div>
 					</div>

@@ -24,6 +24,17 @@ registerBlockType( name, {
 		'card',
 		'orbitfox'
 	],
+	styles: [
+		{
+			name: 'default',
+			label: __( 'Default', 'otter-blocks' ),
+			isDefault: true
+		},
+		{
+			name: 'horizontal',
+			label: __( 'Horizontal', 'otter-blocks' )
+		}
+	],
 	edit,
 	save: () => null
 });

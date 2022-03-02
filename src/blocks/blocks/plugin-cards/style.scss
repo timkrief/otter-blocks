@@ -1,4 +1,4 @@
-.wp-block-themeisle-blocks-plugin-cards {
+.wp-block-themeisle-blocks-plugin-cards :not(.is-style-horizontal) {
 	padding: 20px 0;
 
 	.o-plugin-cards-wrapper {
@@ -118,6 +118,25 @@
 			text-decoration: none;
 			display: block;
 			padding: 20px;
+		}
+	}
+}
+
+.wp-block-themeisle-blocks-plugin-cards .is-style-horizontal {
+	padding: 30px 80px;
+
+	.o-plugin-cards-main {
+		display: flex;
+		column-gap: 20px;
+	}
+
+	.o-plugin-cards-logo {
+		width: 100px;
+	}
+
+	.o-plugin-cards-info {
+		p {
+			margin-bottom: 0;
 		}
 	}
 }
