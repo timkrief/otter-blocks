@@ -84,7 +84,7 @@ const initTyping = ( elem ) => {
 		setTimeout( () => {
 			start( ( i ) => {
 				typingPlaceholder.innerHTML = text.slice( 0, i );
-				if ( i < len ) {
+				if ( i <= len ) {
 					fillPlaceholder.innerHTML = text.slice( i );
 				}
 				if ( len >= steps ) {
